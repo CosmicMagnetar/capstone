@@ -1,0 +1,230 @@
+body{
+    background-color: #080F17;
+    padding: 0px 48px;
+    font-family: "Plus Jakarta Sans";
+}
+.header{
+    padding-top: 24px;
+    gap:8px;
+    height: 96px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    justify-self: center;
+    background-color: #A2D2600F;
+    width: 80%;
+    filter: blur(96);
+    height: 100%;
+    box-sizing: border-box;
+    color: #D6DDE6;
+    box-shadow: 0px 4px 24px 0 #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border: 1.5px;
+    padding: 24px 32px;
+}
+.navLeft{
+    gap: 32px;
+    display: flex;
+}
+.navLeft .NL{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 24px;
+    
+}
+.center{
+    font-weight: 700;
+    font-size: 42px;
+    
+    align-items: center;
+    line-height: 42px;
+}
+.footer{
+    border: 1.5px;
+    padding: 96px 0px;
+    gap:48px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FU{
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #D6DDE6;
+}
+.FC{
+    gap:12px;
+    height:48px;
+    overflow: hidden;
+    border: 0px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.FC input[type="text"]{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 48px;
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    color: #D6DDE666;
+}
+.C1{
+    padding: 48px 0px;
+}
+.C1 .welcome{
+    border: 1.5px;
+    padding: 96px 0px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.WT{
+    color: #D6DDE6;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.pro{
+    padding: 48px 0px;
+    gap:48px;
+}
+.Preal{
+    gap:8px;
+    justify-content: space-between;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.FL{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    gap: 96px;
+    padding: 200px 0px 96px;
+    border-bottom: 1.5px;
+}
+.CT{
+    padding-bottom: 96px;
+    font-size: 64px;
+    line-height: 68px;
+    color: #D6DDE6;
+    width: 75%;
+}
+.CI{
+    justify-content: center;
+    align-items: center;
+}
+.cSL{
+    font-size: 28px;
+    line-height: 32px;
+    color: #D6DDE6;
+}
+.cSR{
+    font-size: 17px;
+    line-height: 28px;
+    color: #D6DDE6;
+    padding-right: 40px;
+}
+.contactC{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+    gap:48px;
+}
+.numb{
+    padding-top: 200px;
+    gap:48px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textT{
+    gap:8px;
+    color: #D6DDE6;
+    text-align: center;
+    justify-content: space-between;
+}
+.TextU{
+    font-size: 28px;
+    line-height: 32px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.TextL{
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+}
+.inputNum{
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    border-radius: 8px; 
+    background-color: #FFFFFF0A; 
+    border: 1.5px solid #FFFFFF33;
+    width: 60px;
+}
+.inputNum input[type="number"]{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #D6DDE666;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px 16px;
+    width: 13px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6.5px;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.eight-input{
+    display: flex;
+    gap: 12px;
+    padding: 40px 0px;
+}
+.TextGradCont{
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    width: 100%;
+    background: radial-gradient(184.11% 185.17% at 28.27% 7.59%, rgba(8, 15, 23, 0.7) 37.83%, rgba(163, 210, 96, 0.5) 100%);
+}
+.textgrad{
+    gap:16px
+}
