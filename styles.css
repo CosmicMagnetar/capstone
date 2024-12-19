@@ -264,6 +264,18 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     border-radius: 8px;
     width: 443px;
 }
+button,.NL,.navRight{
+    cursor: pointer;
+}
+.NL:hover,.navRight:hover{
+    transition: color 0.5s;
+    color: rgb(19, 129, 213);
+}
+.pro:hover{
+    transition: transform 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
 @media (max-width: 768px) {
     .navBar {
         flex-direction: column;
