@@ -1,4 +1,16 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: fit-content;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body{
     background-color: #080F17;
     padding: 0px 48px;
     font-family: "Plus Jakarta Sans";
@@ -6,13 +18,15 @@ body{
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    width: fit-content;
 }
 .header{
     padding-top: 24px;
     gap:8px;
     width: 83%;
     height: 96px;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -56,7 +70,7 @@ body{
     border: 1.5px;
     padding: 96px 0px;
     gap:48px;
-    box-sizing: border-box;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +80,7 @@ body{
     font-size: 34px;
     line-height: 40px;
     text-align: center;
-    box-sizing: border-box;
+
     color: #D6DDE6;
 }
 .FC{
@@ -75,7 +89,7 @@ body{
     overflow: hidden;
     border: 0px;
     display: flex;
-    box-sizing: border-box;
+
     align-items: center;
     justify-content: center;
 }
@@ -85,7 +99,7 @@ body{
     border: none;
     height: 48px;
     font-size: 20px;
-    box-sizing: border-box;
+
     height: 100%;
     color: #D6DDE666;
 }
@@ -104,7 +118,7 @@ body{
     font-size: 110px;
     line-height: 110px;
     text-align: center;
-    box-sizing: border-box;
+
     font-weight: 900;
 }
 .pro{
@@ -158,6 +172,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 48px 0px;
+    width: 100%;
     gap:48px;
 }
 .numb{
@@ -168,12 +183,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .textT{
     gap:8px;
     color: #D6DDE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     text-align: center;
-    justify-content: space-between;
+    width: 100%;
 }
 .TextU{
     font-size: 28px;
@@ -189,7 +209,7 @@ body{
 .inputNum{
     overflow: hidden;
     display: flex;
-    box-sizing: border-box;
+
     align-items: center;
     justify-content: center;
     height: 64px;
