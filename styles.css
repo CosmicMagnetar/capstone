@@ -276,7 +276,7 @@ button,.NL,.navRight{
     transform: scale(1.2);
     cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 980px) {
     .navBar {
         flex-direction: column;
         gap: 8px;
