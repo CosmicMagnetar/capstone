@@ -70,7 +70,6 @@
     border: 1.5px;
     padding: 96px 0px;
     gap:48px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,6 +194,9 @@
     text-align: center;
     width: 100%;
 }
+.menu{
+    display: none;
+}
 .TextU{
     font-size: 28px;
     line-height: 32px;
@@ -264,7 +266,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     border-radius: 8px;
     width: 443px;
 }
-button,.NL,.navRight{
+button,.NL,.navRight,.menu{
     cursor: pointer;
 }
 .NL:hover,.navRight:hover{
@@ -277,13 +279,17 @@ button,.NL,.navRight{
     cursor: pointer;
 }
 @media (max-width: 980px) {
+    .menu{
+        display:block;
+    }
     .navBar {
-        flex-direction: column;
         gap: 8px;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .navLeft, .navRight {
-        justify-content: center;
+        display: none;
     }
 
     .WT {
@@ -318,15 +324,7 @@ button,.NL,.navRight{
         width: 150%;
         height: 100%;
         margin-top: 10px;
-        flex-direction: column;
     }
-    .navLeft{
-        display: none;
-    }
-    .navRight{
-        display: none;
-    }
-
     .WT {
         font-size: 48px;
     }
